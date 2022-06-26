@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+
+}
+section{
+    padding: 90px 0px ;
+}
+.underline{
+    border-bottom:5px solid ;
+    display: block;
+    width: 5%;
+    margin: 15px auto;
+    color: rgba(246, 250, 251, 0.424);
+
+}
+.container{
+    width: 90%;
+    margin: auto;
+
+}
+/* ====================heder part================= */
+header{
+    background-color: #87509c; 
+    color: white;
+    text-align: center;
+    width: 100%;
+    float: left;
+    padding: 70px 0px;
+   
+
+}
+nav {
+    width: 100%;
+    float: left;
+    padding:10px 0px ;
+}
+.logo-part{
+    width: 50%;
+    text-align: start ;
+    float: left;
+
+
+}
+.menu-part{width: 50%;
+    float: left;
+
+} 
+.menu-part ul{
+    padding: 15px 0px;
+
+}
+.menu-part li{
+    list-style: none;
+    display: inline-block;
+    margin:0px 10px;
+     
+}
+.menu-part a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none  ;
+
+} 
+.menu-part a:hover{
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    transition: ease-in-out 0.8s ;
+
+}
+.heder-writing-part{
+    width: 100%;
+    float: left;
+    margin: 60px 0px;
+    text-align: center;
+
+
+}
+.heder-writing-part h1{
+
+
+}
+.heder-writing-part a button{
+    background-color: #eb7d4b;
+    color: white  ;
+    width: 200px;
+    padding:15px;
+    margin-top: 20px;
+    text-transform: uppercase;
+
+
+
+}
+.heder-writing-part a button:hover{
+
+}
+/* servies--part */
+#servies{
+    width: 100%;
+    float: left;
+    background-color:#17c2a4 ;
+    color: white;
+    text-align: center ;
+}
+.servies-writing-part{
+    width: 100%;
+    float: left;
+}
+.servies-box-part{
+    width: 100%;
+    float: left;
+}
+.servies-box{
+    width: 25%;
+    float: left;
+}
+
+/* ===================team writing part================ */
+
+.team-writing-part{
+    color: rgb(37, 46, 46);
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif ;
+
+}
